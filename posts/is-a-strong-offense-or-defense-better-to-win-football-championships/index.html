@@ -185,9 +185,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>This is where blog post goes basic rules: not a personal essay, no first person language don’t say look at a chart, you can say observations but don’t tell them to look more than 300 words, but not too long</p>
-<p>charts are like paragraphs, just put in a code chunk where chart should go and copy and paste all of the code into one single code block type into top of code bar {r message=FALSE, warning=FALSE}</p>
-<p>then can continue writing, when time for next chart create a new chunk and repeat</p>
+<p>The classic saying “defense wins championships” has been a part of football history for decades. But with the constantly changing world of college football and the NFL, some fans have started to wonder if a powerful offense is actually more important in winning titles today.</p>
+<p>To answer this question, let’s look at some data.</p>
+<p>Sports Reference provides season data for every NFL and college football team. For this, we’ll be looking at the last 10 seasons. First, let’s take a look at the points scored (offense) and the points allowed (defense) from teams that have played in the last 10 Super Bowls.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -384,7 +384,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>This graph shows that 50% of championship teams in the last 10 years had a stronger defense than they did offense.It also shows that 70% of teams had an above average defense, compared to only 40% having an above average offense. Shows that its better to prevent socirng than to score more.</p>
+<p>As you can see on the graph, the 4 quadrants are divided into sections, each representing a category. The gray lines represent the average of the 20 most recent Super Bowl team’s scored points and allowed points. The labeled teams in yellow are the teams that won the Super Bowl that year.</p>
+<p>You can see that 6 of the winning teams fall below the line for average points allowed, meaning they had an above average defense. Only 4 teams are on the right of the line for average points scored, meaning they had an above average offense. This shows that a strong defense is more common in Super Bowl winning teams.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -432,7 +433,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>blah blah blah</p>
+<p>Now let’s look at the last 10 teams that played in the College Football Championship. The pattern is more clear here, with 70% of teams having an above average defense, and 40% having an above average offense. This graph is interesting though, because unlike in the NFL, half of the championship winning teams are in the good defense, bad offense category, suggesting defense might be slightly more important in college football than it is in the NFL. LSU in 2019 and Alabama in 2020 are the only two championship winning teams that had their offense outperforming their defense.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -475,7 +476,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>cfb blah blah blah</p>
+<p>This next chart compares turnovers (red dots) and takeaways (green dots) for each of the teams in the last 10 Super Bowls. The lines between them represent the teams turnover margin, with the black lines being the teams that won the Super Bowl that year.</p>
+<p>You can clearly see that almost all of the Super Bowl teams had more takeaways than turnovers. Turnovers are usually the offense’s fault, they are caused by things like interceptions, fumbles, and overall bad decision-making by the offense. Takeaways are all about the defense. They usually happen when the defense is strong, they force mistakes, make big plays, and put the pressure on the offense, causing them to lose possession of the ball.</p>
+<p>Turnovers are a critical part of the game, and usually the team that wins the turnover battle wins the game, so the defenses that can successfully take the ball away from their opponents play a very important role in who wins the game.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -518,7 +521,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>blah blah blah</p>
+<p>This trend is even more clear in college football. With the exception of Clemson in 2016, every team that won the championship also won the turnover battle throughout the season. Having a defense that is good at taking the ball away creates more opportunities for the offense to score, meaning a strong defense is beneficial on both sides of the ball. An opportunistic defense isn’t the most flashy part of a football game, but it is often the difference between a championship and heading home empty handed.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -569,23 +572,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="lnnvewjygl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#lnnvewjygl table {
+<div id="gtmbjwvvxg" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#gtmbjwvvxg table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#lnnvewjygl thead, #lnnvewjygl tbody, #lnnvewjygl tfoot, #lnnvewjygl tr, #lnnvewjygl td, #lnnvewjygl th {
+#gtmbjwvvxg thead, #gtmbjwvvxg tbody, #gtmbjwvvxg tfoot, #gtmbjwvvxg tr, #gtmbjwvvxg td, #gtmbjwvvxg th {
   border-style: none;
 }
 
-#lnnvewjygl p {
+#gtmbjwvvxg p {
   margin: 0;
   padding: 0;
 }
 
-#lnnvewjygl .gt_table {
+#gtmbjwvvxg .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -611,12 +614,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-left-color: #D3D3D3;
 }
 
-#lnnvewjygl .gt_caption {
+#gtmbjwvvxg .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#lnnvewjygl .gt_title {
+#gtmbjwvvxg .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -628,7 +631,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-width: 0;
 }
 
-#lnnvewjygl .gt_subtitle {
+#gtmbjwvvxg .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -640,7 +643,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-width: 0;
 }
 
-#lnnvewjygl .gt_heading {
+#gtmbjwvvxg .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -652,13 +655,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#lnnvewjygl .gt_bottom_border {
+#gtmbjwvvxg .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#lnnvewjygl .gt_col_headings {
+#gtmbjwvvxg .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -673,7 +676,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#lnnvewjygl .gt_col_heading {
+#gtmbjwvvxg .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -693,7 +696,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#lnnvewjygl .gt_column_spanner_outer {
+#gtmbjwvvxg .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -705,15 +708,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 4px;
 }
 
-#lnnvewjygl .gt_column_spanner_outer:first-child {
+#gtmbjwvvxg .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#lnnvewjygl .gt_column_spanner_outer:last-child {
+#gtmbjwvvxg .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#lnnvewjygl .gt_column_spanner {
+#gtmbjwvvxg .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -725,11 +728,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   width: 100%;
 }
 
-#lnnvewjygl .gt_spanner_row {
+#gtmbjwvvxg .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#lnnvewjygl .gt_group_heading {
+#gtmbjwvvxg .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -755,7 +758,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   text-align: left;
 }
 
-#lnnvewjygl .gt_empty_group_heading {
+#gtmbjwvvxg .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -770,15 +773,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: middle;
 }
 
-#lnnvewjygl .gt_from_md > :first-child {
+#gtmbjwvvxg .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#lnnvewjygl .gt_from_md > :last-child {
+#gtmbjwvvxg .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#lnnvewjygl .gt_row {
+#gtmbjwvvxg .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -797,7 +800,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#lnnvewjygl .gt_stub {
+#gtmbjwvvxg .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -810,7 +813,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#lnnvewjygl .gt_stub_row_group {
+#gtmbjwvvxg .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -824,15 +827,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: top;
 }
 
-#lnnvewjygl .gt_row_group_first td {
+#gtmbjwvvxg .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#lnnvewjygl .gt_row_group_first th {
+#gtmbjwvvxg .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#lnnvewjygl .gt_summary_row {
+#gtmbjwvvxg .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -842,16 +845,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#lnnvewjygl .gt_first_summary_row {
+#gtmbjwvvxg .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#lnnvewjygl .gt_first_summary_row.thick {
+#gtmbjwvvxg .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#lnnvewjygl .gt_last_summary_row {
+#gtmbjwvvxg .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -861,7 +864,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#lnnvewjygl .gt_grand_summary_row {
+#gtmbjwvvxg .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -871,7 +874,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#lnnvewjygl .gt_first_grand_summary_row {
+#gtmbjwvvxg .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -881,7 +884,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-color: #D3D3D3;
 }
 
-#lnnvewjygl .gt_last_grand_summary_row_top {
+#gtmbjwvvxg .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -891,11 +894,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#lnnvewjygl .gt_striped {
+#gtmbjwvvxg .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#lnnvewjygl .gt_table_body {
+#gtmbjwvvxg .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -904,7 +907,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#lnnvewjygl .gt_footnotes {
+#gtmbjwvvxg .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -918,7 +921,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#lnnvewjygl .gt_footnote {
+#gtmbjwvvxg .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -927,7 +930,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#lnnvewjygl .gt_sourcenotes {
+#gtmbjwvvxg .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -941,7 +944,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#lnnvewjygl .gt_sourcenote {
+#gtmbjwvvxg .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -949,72 +952,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#lnnvewjygl .gt_left {
+#gtmbjwvvxg .gt_left {
   text-align: left;
 }
 
-#lnnvewjygl .gt_center {
+#gtmbjwvvxg .gt_center {
   text-align: center;
 }
 
-#lnnvewjygl .gt_right {
+#gtmbjwvvxg .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#lnnvewjygl .gt_font_normal {
+#gtmbjwvvxg .gt_font_normal {
   font-weight: normal;
 }
 
-#lnnvewjygl .gt_font_bold {
+#gtmbjwvvxg .gt_font_bold {
   font-weight: bold;
 }
 
-#lnnvewjygl .gt_font_italic {
+#gtmbjwvvxg .gt_font_italic {
   font-style: italic;
 }
 
-#lnnvewjygl .gt_super {
+#gtmbjwvvxg .gt_super {
   font-size: 65%;
 }
 
-#lnnvewjygl .gt_footnote_marks {
+#gtmbjwvvxg .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#lnnvewjygl .gt_asterisk {
+#gtmbjwvvxg .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#lnnvewjygl .gt_indent_1 {
+#gtmbjwvvxg .gt_indent_1 {
   text-indent: 5px;
 }
 
-#lnnvewjygl .gt_indent_2 {
+#gtmbjwvvxg .gt_indent_2 {
   text-indent: 10px;
 }
 
-#lnnvewjygl .gt_indent_3 {
+#gtmbjwvvxg .gt_indent_3 {
   text-indent: 15px;
 }
 
-#lnnvewjygl .gt_indent_4 {
+#gtmbjwvvxg .gt_indent_4 {
   text-indent: 20px;
 }
 
-#lnnvewjygl .gt_indent_5 {
+#gtmbjwvvxg .gt_indent_5 {
   text-indent: 25px;
 }
 
-#lnnvewjygl .katex-display {
+#gtmbjwvvxg .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#lnnvewjygl div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#gtmbjwvvxg div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -1145,7 +1148,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>and more blah blah blah</p>
+<p>The next table compares defensive and offensive yards per play. Defensively, teams want to have low yards per play, meaning that they stop their opponents from moving the ball forward. The darker the red in the chart, the worse the team’s defense was. Offensively is the opposite. Teams want to have as many yards per play as possible, so they can get to the endzone faster. The darker the green in the chart, the better the team’s offense was.</p>
+<p>What stands out in this chart is that almost every championship team was strong on at least one side of the ball. Teams like Alabama in 2020 and LSU in 2019 were very strong offensively, but still had respectable defenses. Others, like Georgia in 2021 or Alabama in 2017, were strong on both sides of the ball. The teams that were weaker defensively, like Ohio State in 2020 or Washington in 2023, made it to the championship, but couldn’t win. This shows that an efficient defense can make up for a sub-par offense, but it is much harder to win with a weak defense.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -1184,23 +1188,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="ciuqoyzwdq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#ciuqoyzwdq table {
+<div id="dpcomuvsob" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#dpcomuvsob table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#ciuqoyzwdq thead, #ciuqoyzwdq tbody, #ciuqoyzwdq tfoot, #ciuqoyzwdq tr, #ciuqoyzwdq td, #ciuqoyzwdq th {
+#dpcomuvsob thead, #dpcomuvsob tbody, #dpcomuvsob tfoot, #dpcomuvsob tr, #dpcomuvsob td, #dpcomuvsob th {
   border-style: none;
 }
 
-#ciuqoyzwdq p {
+#dpcomuvsob p {
   margin: 0;
   padding: 0;
 }
 
-#ciuqoyzwdq .gt_table {
+#dpcomuvsob .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1226,12 +1230,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-left-color: #D3D3D3;
 }
 
-#ciuqoyzwdq .gt_caption {
+#dpcomuvsob .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#ciuqoyzwdq .gt_title {
+#dpcomuvsob .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1243,7 +1247,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-width: 0;
 }
 
-#ciuqoyzwdq .gt_subtitle {
+#dpcomuvsob .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1255,7 +1259,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-width: 0;
 }
 
-#ciuqoyzwdq .gt_heading {
+#dpcomuvsob .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1267,13 +1271,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#ciuqoyzwdq .gt_bottom_border {
+#dpcomuvsob .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ciuqoyzwdq .gt_col_headings {
+#dpcomuvsob .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1288,7 +1292,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#ciuqoyzwdq .gt_col_heading {
+#dpcomuvsob .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1308,7 +1312,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#ciuqoyzwdq .gt_column_spanner_outer {
+#dpcomuvsob .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1320,15 +1324,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 4px;
 }
 
-#ciuqoyzwdq .gt_column_spanner_outer:first-child {
+#dpcomuvsob .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ciuqoyzwdq .gt_column_spanner_outer:last-child {
+#dpcomuvsob .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ciuqoyzwdq .gt_column_spanner {
+#dpcomuvsob .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1340,11 +1344,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   width: 100%;
 }
 
-#ciuqoyzwdq .gt_spanner_row {
+#dpcomuvsob .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#ciuqoyzwdq .gt_group_heading {
+#dpcomuvsob .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1370,7 +1374,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   text-align: left;
 }
 
-#ciuqoyzwdq .gt_empty_group_heading {
+#dpcomuvsob .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1385,15 +1389,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: middle;
 }
 
-#ciuqoyzwdq .gt_from_md > :first-child {
+#dpcomuvsob .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ciuqoyzwdq .gt_from_md > :last-child {
+#dpcomuvsob .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ciuqoyzwdq .gt_row {
+#dpcomuvsob .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1412,7 +1416,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#ciuqoyzwdq .gt_stub {
+#dpcomuvsob .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1425,7 +1429,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#ciuqoyzwdq .gt_stub_row_group {
+#dpcomuvsob .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1439,15 +1443,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: top;
 }
 
-#ciuqoyzwdq .gt_row_group_first td {
+#dpcomuvsob .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#ciuqoyzwdq .gt_row_group_first th {
+#dpcomuvsob .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#ciuqoyzwdq .gt_summary_row {
+#dpcomuvsob .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1457,16 +1461,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#ciuqoyzwdq .gt_first_summary_row {
+#dpcomuvsob .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#ciuqoyzwdq .gt_first_summary_row.thick {
+#dpcomuvsob .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#ciuqoyzwdq .gt_last_summary_row {
+#dpcomuvsob .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1476,7 +1480,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#ciuqoyzwdq .gt_grand_summary_row {
+#dpcomuvsob .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1486,7 +1490,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#ciuqoyzwdq .gt_first_grand_summary_row {
+#dpcomuvsob .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1496,7 +1500,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-color: #D3D3D3;
 }
 
-#ciuqoyzwdq .gt_last_grand_summary_row_top {
+#dpcomuvsob .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1506,11 +1510,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#ciuqoyzwdq .gt_striped {
+#dpcomuvsob .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ciuqoyzwdq .gt_table_body {
+#dpcomuvsob .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1519,7 +1523,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#ciuqoyzwdq .gt_footnotes {
+#dpcomuvsob .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1533,7 +1537,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#ciuqoyzwdq .gt_footnote {
+#dpcomuvsob .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1542,7 +1546,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#ciuqoyzwdq .gt_sourcenotes {
+#dpcomuvsob .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1556,7 +1560,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#ciuqoyzwdq .gt_sourcenote {
+#dpcomuvsob .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1564,72 +1568,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#ciuqoyzwdq .gt_left {
+#dpcomuvsob .gt_left {
   text-align: left;
 }
 
-#ciuqoyzwdq .gt_center {
+#dpcomuvsob .gt_center {
   text-align: center;
 }
 
-#ciuqoyzwdq .gt_right {
+#dpcomuvsob .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ciuqoyzwdq .gt_font_normal {
+#dpcomuvsob .gt_font_normal {
   font-weight: normal;
 }
 
-#ciuqoyzwdq .gt_font_bold {
+#dpcomuvsob .gt_font_bold {
   font-weight: bold;
 }
 
-#ciuqoyzwdq .gt_font_italic {
+#dpcomuvsob .gt_font_italic {
   font-style: italic;
 }
 
-#ciuqoyzwdq .gt_super {
+#dpcomuvsob .gt_super {
   font-size: 65%;
 }
 
-#ciuqoyzwdq .gt_footnote_marks {
+#dpcomuvsob .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#ciuqoyzwdq .gt_asterisk {
+#dpcomuvsob .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#ciuqoyzwdq .gt_indent_1 {
+#dpcomuvsob .gt_indent_1 {
   text-indent: 5px;
 }
 
-#ciuqoyzwdq .gt_indent_2 {
+#dpcomuvsob .gt_indent_2 {
   text-indent: 10px;
 }
 
-#ciuqoyzwdq .gt_indent_3 {
+#dpcomuvsob .gt_indent_3 {
   text-indent: 15px;
 }
 
-#ciuqoyzwdq .gt_indent_4 {
+#dpcomuvsob .gt_indent_4 {
   text-indent: 20px;
 }
 
-#ciuqoyzwdq .gt_indent_5 {
+#dpcomuvsob .gt_indent_5 {
   text-indent: 25px;
 }
 
-#ciuqoyzwdq .katex-display {
+#dpcomuvsob .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#ciuqoyzwdq div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#dpcomuvsob div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -1760,6 +1764,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+<p>This trend is a little bit different when it comes to NFL teams. The defense doesn’t hold as much power, with teams like the Tampa Bay Buccaneers winning the Super Bowl in 2020 with a weaker defense. However it still holds true, with the majority of winning teams having an average or above average defense.</p>
+<p>After looking at this data, the trend is clear: defense might not win every championship, but you’re aren’t likely to win one without it. NFL Super Bowl champions and CFB champions consistently have above-average defenses, and most rank better defensively than offensively. Although offense often steals headlines, defense is what lays the groundwork for a championship.</p>
 
 
 
